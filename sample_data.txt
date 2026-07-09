@@ -1,0 +1,31 @@
+# DAYS OF THE WEEK
+[Days]
+Monday, Tuesday, Wednesday, Thursday, Friday
+
+# DAILY TIME SLOTS
+[TimeSlots]
+09:00-10:00, 10:00-11:00, 11:00-12:00, 13:00-14:00, 14:00-15:00
+
+# CLASSROOMS
+[Rooms]
+Room 101, Room 102, Room 103
+
+# FACULTY MEMBERS (Name: Subject1, Subject2... [Unavailable: Day Slot, Day Slot...])
+# Example availability restriction: Dr. Jones is unavailable Monday 09:00-10:00 and Wednesday 10:00-11:00.
+[Faculty]
+Dr. Smith: Math, Physics
+Dr. Jones: Chemistry, Biology | Unavailable: Monday 09:00-10:00, Wednesday 10:00-11:00
+Dr. Taylor: History, English
+Prof. Davis: Computer Science
+
+# CLASS REQUIREMENTS (Student Group: Subject, Weekly Hours, Preferred Faculty)
+[Requirements]
+Grade 10: Math, 3, Dr. Smith
+Grade 10: Physics, 2, Dr. Smith
+Grade 10: Chemistry, 2, Dr. Jones
+Grade 10: English, 2, Dr. Taylor
+Grade 10: Computer Science, 2, Prof. Davis
+Grade 11: Math, 3, Dr. Smith
+Grade 11: Biology, 2, Dr. Jones
+Grade 11: History, 2, Dr. Taylor
+Grade 11: Computer Science, 3, Prof. Davis
